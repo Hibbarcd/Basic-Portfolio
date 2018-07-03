@@ -3,35 +3,61 @@
 <head>
         <meta charset="utf-8">
         <title>Personal Portfolio</title>
-        <link rel "stylesheet" href="assets\css\style.css">
-
-
+        <link rel="stylesheet" href="assets/css/style.css">             
+            
 </head>
 
-<body>
+<body background="assets/images/leaves-pattern.png">
         <!-------Header------------------>
 
-    <header class="primary-header container group">
-        <h1 class="logo">
-            <a href="index.html">Clay<br>Hibbard</a>
-        </h1>
+    <header class="wrapper">
 
         <nav class="nav primary-nav">
+                
             <ul>
-                <li><a href="index.html">About</a></li>
+                <li><a class="name">Clayton Hibbard<br></a></li>
+            <div class="divider"></div>
+                <li><a href="index.html">About |</a></li>
                 <li><a href="contact.html">Contact</a></li>  
-                <li><a href="portfolio.html">Portfolio</a></li>  
+                <li><a href="portfolio.html">| Portfolio</a></li>  
             </ul>
+          </nav>
+        
+    </header>   
 
-        </nav>
+            <!----------Contact------>
+        <div class="contact">
+         
+            <h2>Contact</h2>
 
-    </header>
-            <!----------Contact Me------>
+          <form class="form">
+              <p>Name:
+                  <br>
+                <input size= 100% type="text" name="name">
+              </p>
+              <p>Email:
+                  <br>
+                <input size= 100% type="email" name="email">
+              </p> 
+              <p>Message:
+                  <br>
+                 <textarea size= 100% type="message" name="Message" rows= 18 cols= 100></textarea>    
+                 <br>
+                
+                <input type="submit" value="Submit">
+                
+          </form>  
+                
+        </div> 
 
-    <section class="contact">
-       
-            
-    </section>
+
+            <!------Footer------>
+    <footer class="footer">
+
+         <small>&copy; Clay Hibbard</small>
+                        
+    </footer>
+    
 
 </body>
 </html>
