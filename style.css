@@ -186,6 +186,7 @@ h4 {
 	width: 960px;
 	background-color: #ffffff;
 	height: 600px;
+	margin-left: 100px;
 }
 
 .form {
@@ -207,7 +208,7 @@ Portfolio Adds
 .image-container {
 	background-color: #ffffff;
 	position: relative;
-	left: 100px;
+	margin-left: 50px;
 }
 .image1, .image2, .image3, .image4, .image5  {
 	transform: rotate(90deg);
