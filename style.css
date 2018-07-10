@@ -183,7 +183,8 @@ h4 {
 	text-align: center;
 	font-size: 12pt;
 	padding-top: 20px;
-	background-color: #cccccc;
+	width: 960px;
+	background-color: #ffffff;
 }
 
 .form {
